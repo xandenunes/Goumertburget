@@ -19,6 +19,7 @@ header {
 
 h1 a {
     text-decoration: none;
+    color: black;
 }
 
 nav {
@@ -54,4 +55,8 @@ nav li {
     border: none;
     height: 32px;
     width: 260px;
+}
+
+#btnBusca {
+    width: 30px;
 }
