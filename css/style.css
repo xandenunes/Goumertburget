@@ -39,6 +39,10 @@ nav li {
     margin-left: 18px;
 }
 
+.inicio {
+    background-image: url("./imagens/bg inicio");
+}
+
 #divBusca {
     background-color: #2F4F4F;
     border: solid 1px;
