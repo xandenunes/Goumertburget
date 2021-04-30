@@ -3,13 +3,47 @@ body {
 }
 
 
+/* 
+
+*/
+
+
+/* 
+sobre
+*/
+
+.sobre {
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/bgHis.png");
+    color: white;
+}
+
+.sobre h2 {
+    padding: 2%;
+    font-size: 40px;
+}
+
+.sobre p {
+    font-size: 25px;
+    padding: 0 3%;
+}
+
+
 /*
  TOPS
  */
 
+.tops {
+    background-color: black;
+}
+
 .tops h2 {
     text-align: center;
     font-size: 40px;
+    color: white;
+    margin-top: 0;
 }
 
 .lista {
@@ -19,8 +53,8 @@ body {
 }
 
 .lista li {
-    border: 3px solid black;
-    border-radius: 10px;
+    border: 3px solid white;
+    border-radius: 15px;
     display: flex;
     margin: 1% 0;
 }
@@ -42,6 +76,7 @@ body {
     font-weight: bold;
     margin-top: 15px;
     margin-bottom: 15px;
+    color: white;
 }
 
 .div-estrela {
@@ -103,10 +138,10 @@ footer {
     text-align: center;
 }
 
-.img-p {
-    display: inline-block;
+.img-p p {
+    margin: 0.2% 0;
 }
 
 footer img {
-    width: 2%;
+    width: 2.5%;
 }
