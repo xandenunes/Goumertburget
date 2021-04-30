@@ -1,0 +1,112 @@
+body {
+    background-color: #B31212;
+}
+
+
+/*
+ TOPS
+ */
+
+.tops h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.lista {
+    width: 940px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.lista li {
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    margin: 1% 0;
+}
+
+.lista li:hover {
+    border: 3px solid red;
+}
+
+.img-restalrentes {
+    width: 20%;
+}
+
+.list-texto {
+    margin: 0 0 5px 10px;
+}
+
+.lista li p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.div-estrela {
+    display: inline-block;
+}
+
+.estrelas {
+    width: 5%;
+}
+
+
+/* 
+MAPA
+*/
+
+.mapa {
+    margin-bottom: 1.5%;
+}
+
+.mapa h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.cep-mapa {
+    display: inline-flex;
+    width: 100%;
+    height: 300px;
+}
+
+.mapa iframe {
+    margin-left: 15%;
+    width: 50%;
+    height: 100%;
+}
+
+.mapa form {
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+.mapa label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/* 
+FOOTER
+*/
+
+footer {
+    position: absolute;
+    bottom: -50;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.img-p {
+    display: inline-block;
+}
+
+footer img {
+    width: 2%;
+}
