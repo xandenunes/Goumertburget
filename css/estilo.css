@@ -2,10 +2,40 @@ body {
     background-color: #B31212;
 }
 
+.menu {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
 
 /* 
-
+inicio
 */
+
+.inicio {
+    width: 100%;
+    height: 650px;
+    background-image: url("../img/bgInicio.png");
+    color: white;
+    text-align: center;
+}
+
+.inicio h2 {
+    padding-top: 15%;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.inicio p {
+    font-size: 35px;
+}
 
 
 /* 
@@ -15,14 +45,16 @@ sobre
 .sobre {
     text-align: center;
     width: 100%;
-    height: 500px;
+    height: 650px;
     background-image: url("../img/bgHis.png");
     color: white;
+    margin-top: 0;
 }
 
 .sobre h2 {
     padding: 2%;
     font-size: 40px;
+    margin: 0;
 }
 
 .sobre p {
@@ -104,22 +136,22 @@ MAPA
 .cep-mapa {
     display: inline-flex;
     width: 100%;
-    height: 300px;
+    height: 650px;
 }
 
 .mapa iframe {
-    margin-left: 15%;
+    margin-left: 10%;
     width: 50%;
     height: 100%;
 }
 
 .mapa form {
     margin-top: 5%;
-    margin-left: 4%;
+    margin-left: 10%;
 }
 
 .mapa label {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
 }
 
