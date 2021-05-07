@@ -113,3 +113,15 @@ body {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+h5.card-title{
+   text-align: left;
+}
+
+div.div-estrela{
+    text-align: left;
+}
+
+p.card-text{
+    text-align: left;
+}
