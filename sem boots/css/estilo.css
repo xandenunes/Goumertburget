@@ -1,29 +1,45 @@
-html, body{
+html,
+body {
     margin: 0px;
     padding: 0px;
- }
+}
 
 body {
     background-color: #B31212;
 }
 
-.menu {
-    display: inline;
-    margin-left: 20px;
-}
-
-nav li{
-    display: inline-block;
+nav li {
     text-decoration: none;
+    display: inline-block;
     font-size: 20px;
     color: white;
     text-transform: uppercase;
 }
 
-nav .menu2 ul{
+header {
+    background-color: red;
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav .menu2 ul {
     position: absolute;
-    right: 50px;
-    top: 70px;
+    right: 40px;
+    top: 35px;
+}
+
+.menu2 li {
+    margin-left: 5px;
 }
 
 
